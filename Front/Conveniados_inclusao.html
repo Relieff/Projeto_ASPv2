@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle Processos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="Background-e-icon/favicon (3).ico" type="image/x-icon">
+
+
+</head>
+<body class="b1">
+    
+    <div class="logo">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAR5JREFUSEvtldENwjAMRK+bwCYwCTAJMAlsApvAJqAn5VBa4iatVIkPIvEBsf3ssx06LXy6hePrpwEXSWdJzzEVahXsJe0krVKQawq6kXRLwbdjkDHAUdKpkJ0hAABjQyXFEwFwfAQ+SHJIWdtmHVURAZAGjaMDgEqoArn8/cs+AljjVgB9uJeM50hEHEvySkEnS4Rf1GQ31ff0BMCkJtuYIMjFh0CeoLxH/M4Ucdfcg9oLApBJIwHvSHFcox7kmecwsqWZztpSUlFxJ4YAjBhPMqwdIN7ivF+9hg8BnutacN9TDRAOiVFJT6ocUFuu2k7YP4f2nmtn0Jp9qQrvxSfxvALeFU/EFEjzHpg+Jbhtw1e59n8wB9bz+QOqEr4Bq6VBGetK8tYAAAAASUVORK5CYII="/>
+    </div>
+    <div class="bola"></div>
+    
+    <div class="card">
+        <div class="logo">
+            <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAR5JREFUSEvtldENwjAMRK+bwCYwCTAJMAlsApvAJqAn5VBa4iatVIkPIvEBsf3ssx06LXy6hePrpwEXSWdJzzEVahXsJe0krVKQawq6kXRLwbdjkDHAUdKpkJ0hAABjQyXFEwFwfAQ+SHJIWdtmHVURAZAGjaMDgEqoArn8/cs+AljjVgB9uJeM50hEHEvySkEnS4Rf1GQ31ff0BMCkJtuYIMjFh0CeoLxH/M4Ucdfcg9oLApBJIwHvSHFcox7kmecwsqWZztpSUlFxJ4YAjBhPMqwdIN7ivF+9hg8BnutacN9TDRAOiVFJT6ocUFuu2k7YP4f2nmtn0Jp9qQrvxSfxvALeFU/EFEjzHpg+Jbhtw1e59n8wB9bz+QOqEr4Bq6VBGetK8tYAAAAASUVORK5CYII="/>
+        </div>
+        
+        <div class="d1">
+            <p class="p1"> Conveniados<small>[Inclusão]</small></p>
+            <form class="form" action="Conveniados_inclusao.html" method="post">
+                <p>
+                    <label for="nome">Nome Completo:</label><br>
+                    <input class="nome" type="text" required="required"  name="nome" id = nome placeholder="Nome Completo" size="35px" minlength="6" maxlength="20" >
+                </p>
+                <p>
+                    <label for="cpf">CPF:</label><br>
+                    <input class="cpf" type="text" name="cpf" required title="Preencha o campo apenas com números" id = cpf placeholder="Apenas Números" size="35px" pattern="\d{11}" minlength="11" >
+                </p>
+                <p>
+                    <label for="convenio">Número do Convênio:</label><br>
+                    <input class="convenio" type="text" name="convenio" required id="convenio" placeholder="Número do Convênio" size="35px" pattern="\d{10}" maxlength="10">
+                </p>
+                <p>
+                    <label for="usuario">Usuário:</label><br>
+                    <input class="usuario" type="text" name="usuario" id="usuario" placeholder="Nome de Usuário" size="35px" required>
+                </p>
+                <p>
+                    <label for="senha">Senha:</label><br>
+                    <input class="senha" type="password" name="senha" id="senha" placeholder="Digite sua senha" size="35px" required minlength="6" maxlength="12">
+                </p>
+                <p>
+                    <label for="senha2">Confirme sua senha:</label><br>
+                    <input class="senha2" type="password" name="senha2" id="senha2" placeholder="" size="35px" required>
+                </p>
+
+                <input class="submit" type="submit" name="submit" id="submit">
+                <input class="reset" type="reset" name="reset" id="reset">
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+@font-face {
+    font-family:Dosis;
+    src: url(Fontes/Dosis/Dosis-VariableFont_wght.ttf);
+}
+
+body{
+    background-image: url(Background-e-icon/wpp-lua.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+nav {
+    background-color: #333;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: Arial;
+}
+
+.menu li {
+    position: relative;
+}
+
+.menu li a {
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    color: #fff;
+    
+}
+
+.menu li:hover {
+    background-color: #555;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 90%;
+    left: 0;
+    background-color: #3a3a3a;
+    z-index: 1;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.submenu li {
+    display: block;
+}
+
+.submenu li a {
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.submenu li:hover {
+    background-color: #555;
+}
+
+.title{
+    color: #fff;
+    font-size: 15px;
+    font-family: Dosis;
+    position: absolute;
+    top:150px;
+    left:140px;
+    width: 400px;
+    overflow-wrap: break-word;
+}
+.paragrafo1{
+    font-size: 23px;
+}
+
+.rodape{
+    background-color: #333;
+    position: absolute;
+    width: 100%;
+    height: 50px;
+    bottom: 0px;
+}
+
+.paragrafo2{
+    position: absolute;
+    bottom: 50px;
+    color: #fff;
+    font-family: Arial;
+    font-size: 15px;
+    bottom: 3px;
+    right: 50vmin;
+}
+
+.link{
+    cursor: pointer;
+    color: white;
+    transition: color 0.3s ease;
+}
+
+.link:hover{
+    color:blue;
+}
+
+.img{
+    position:absolute;
+    width: 620px;
+    right: 100px;
+    bottom: 300px;
+    left: 600px;
+}

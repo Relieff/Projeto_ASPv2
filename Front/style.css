@@ -1,0 +1,189 @@
+.b1{
+    background-color: rgb(228, 228, 228);
+}
+.p1{
+    font-family: 'Lucida Sans',  sans-serif;
+    font-size: 15pt;
+    text-align: center;
+}
+
+.nome{
+    border-radius: 30px;
+    height: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: border-radius 0.3s ease;
+}
+
+.nome:hover{
+    border-radius: 25%;
+}
+
+.cpf{
+    border-radius: 30px;
+    height: 20px;
+    text-align: center;
+    transition: border-radius 0.3s ease;
+}
+
+.cpf:hover{
+    border-radius: 25%;
+}
+
+.convenio{
+    border-radius: 30px;
+    height: 20px;
+    text-align: center;
+    transition: border-radius 0.3s ease;
+}
+
+.convenio:hover{
+    border-radius: 25%;
+}
+
+.usuario{
+    border-radius: 30px;
+    height: 20px;
+    text-align: center;
+    text-transform: lowercase;
+    transition: border-radius 0.3s ease;
+}
+
+.usuario:hover{
+    border-radius: 25%;
+}
+
+.senha{
+    border-radius: 30px;
+    height: 20px;
+    text-align: center;
+    transition: border-radius 0.3s ease;
+}
+
+.senha:hover{
+    border-radius: 25%;
+}
+
+.senha2{
+    border-radius: 30px;
+    height: 20px;
+    text-align: center;
+    transition: border-radius 0.3s ease;
+}
+
+.senha2:hover{
+    border-radius: 25%;
+}
+
+.d1{
+    text-align: center;
+}
+
+.form{
+    font-family: 'Lucida Sans',  sans-serif;
+    animation: infinite linear;
+    border-radius: 15px;
+}
+
+.logo{
+    position: fixed;
+    top: -50vmin;
+    left: -50vmin;
+    width: 100vmin;
+    height: 100vmin;
+    border-radius: 47% 53% 61% 39%  / 45% 51% 49% 55%;
+    background-color: rgb(101, 203, 221);
+}
+
+.logo::after{
+    content: "";
+    position: inherit;
+    right: -50vmin;
+    bottom: -55vmin;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    background-color: rgba(115, 115, 245, 0.959);
+}
+
+.card{
+    overflow: hidden;
+    position: relative;
+    z-index: 3;
+    width: 60%;
+    height: 500px;
+    margin: 0 20px;
+    padding: 160px 30px 38px;
+    border-radius: 1.25rem;
+    background-color: aliceblue;
+    text-align: center;
+    box-shadow: 0 100pc 100px rgb(0 0 0 / 10%);
+    left: 200px;
+}
+
+.card::before{
+    content: "";
+    position: absolute;
+    background: #216ce7;
+    top: -880px;
+    left: 50%;
+    width: 1000px;
+    height: 1000px;
+    border-radius: 50%;
+    translate: -50% 0;
+}
+
+.card .logo{
+    position:absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color:white;
+    height: 64px;
+    width: 64px;
+    top:30px;
+    left: 50%;
+    translate: -55% 0;
+}
+
+.logo{
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.logo:hover{
+    opacity: 0;
+
+}
+
+.card>h2{
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0 0 30px;
+}
+
+.submit{
+    border-radius: 20px;
+    width: 150px;
+    border-color: white;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.submit:hover{
+    border-color: #216ce7;
+}
+
+.reset{
+    border-radius: 20px;
+    width: 150px;
+    cursor: pointer;
+    border-color: white;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.reset:hover{
+    border-color: #216ce7;
+}
